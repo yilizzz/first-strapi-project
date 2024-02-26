@@ -837,6 +837,7 @@ export interface ApiRestaurantRestaurant extends Schema.CollectionType {
       'api::category.category'
     >;
     Name: Attribute.String & Attribute.Required;
+    Image: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
