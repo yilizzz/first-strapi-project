@@ -20,6 +20,10 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "mappedBy": "restaurants"
+    },
+    "Name": {
+      "type": "string",
+      "required": true
     }
   }
 }
